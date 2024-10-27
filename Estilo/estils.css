@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenidor {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article-box {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.article-box h2 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.article-box p {
+    color: #666;
+}
+
+.paginacio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paginacio ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.paginacio li {
+    margin: 0 5px;
+}
+
+.paginacio a {
+    text-decoration: none;
+    color: #003366;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.paginacio a:hover {
+    background-color: #003366;
+    color: #fff;
+}
+
+.paginacio .active a {
+    background-color: #003366;
+    color: #fff;
+    cursor: default;
+}
+
+.paginacio .disabled a {
+    color: #bbb;
+    cursor: not-allowed;
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #003366;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #005599;
+}
+
+
+.navbar {
+    background-color: #003366;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Codigo editado css para nuestra navbar (barra de navegacion) */
+.navbar {
+    background-color: #003366; /* Color azul oscuro */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    text-align: center; /* Centrar el contenido dentro del navbar */
+}
+
+/* Contenedor de enlaces de navegación */
+.nav-links {
+    display: inline-block; /* Para alinear el contenido de los enlaces */
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-links a {
+    color: #ffffff; /* Color del texto blanco */
+    text-decoration: none; /* Eliminar el subrayado */
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    transition: color 0.3s; /* Transición suave al cambiar color */
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Cambiar el color al pasar el mouse por encima */
+}
+
+
+/* Aquí editaremos un poco nuestro boton para volver al inicio en la parte de registro o login */
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #003366;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #005599;
+}
